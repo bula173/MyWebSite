@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+<script src="jquery-3.1.1.min.js"></script>
+<link rel="stylesheet" href="css/fontello.css" type="text/css" />
+<link href="https://fonts.googleapis.com/css?family=Bungee|Exo+2:400,700,700i|Lobster" rel="stylesheet">
+</head>
+<body>
+
+<div class="container">
+	<div class="header">
+		<div class="name">
+			Marcin Kwiatkowski
+		</div>
+		<div class="hour">
+			12:00:00
+		</div>
+		<div style="clear:both"></div>
+	</div>
+	<div class="square">
+		<div class="tile1">1</div>
+		<div class="tile2">2</div>
+		<div class="tile3">3</div>
+		<div class="tile4">4</div>
+		<div style="clear:both"></div>
+		<div class="tile5">5</div>
+	</div>
+	<div class="square">
+		<div class="tile6">Content</div>
+		<div class="fb"><i class="icon-facebook"></i></div>
+		<div class="gplus"><i class="demo-icon icon-gplus"></i></div>
+		<div class="linkedin"><i class="icon-linkedin"></i> </div>
+		<div style="clear:both"></div>
+
+	</div>
+	<div style="clear:both"></div>
+	
+	<div class="footer">
+		Marcin Kwiatkowski &copy <a href="mailto:marcinkwiatkowski173@gmail"> mail me:marcinkwiatkowski173@gmail.com <a>
+	</div>
+	
+</div>
+
+	<script>
+		$(document).ready(function(){
+			var i = 500;
+			var delay = 400;
+			$(".tile1").fadeIn(i);
+			$(".tile2").fadeIn(i+=delay);
+			$(".tile3").fadeIn(i+=delay);
+			$(".tile4").fadeIn(i+=delay);
+			$(".tile5").fadeIn(i+=delay);
+			$(".tile6").fadeIn(i+=delay);
+			$(".fb").fadeIn(i+=delay);
+			$(".gplus").fadeIn(i+=delay);
+			$(".linkedin").fadeIn(i+=delay);
+		});
+	</script>
+
+</body>
+</html>
